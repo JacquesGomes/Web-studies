@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+    <h1>Formulário de Admissão de Estudante</h1>
+    <form action="backend.php">
+        <br>
+        <div>
+            Nome: <input type="text" name="studentName" value="" placeholder="Escreva seu nome" id="studentName">
+        </div>
+        <br>
+
+        <div>
+            Número: <input type="number" name="contact" id="">
+        </div>
+        <br>
+
+        <div>
+            Email: <input type="email" name="email" id="">
+        </div>
+        <br>
+
+        <div>
+            Gênero: Masculino <input type="radio" name="gender" id=""> Feminino <input type="radio" name="gender" id="">
+        </div>
+        <br>
+
+        <div>
+            Você aceita os termos e condições? <input type="checkbox" name="checkbox" id="">
+        </div>
+        <br>
+
+        <div>
+            Você aceita receber emails e comunicações? <input type="checkbox" name="checkbox" id="" checked>
+        </div>
+        <br>
+
+        <div>
+        Data de Nascimento: <input type="date" name="data de nascimento" id="">
+        </div>
+        <br>
+
+        <div>
+            Envie sua imagem: <input type="file" name="file" id="" accept="image/*">
+        </div>
+        <br>
+
+        <div>
+            Endereço: <br><textarea name="Endereço" id="" cols="40" rows="3"></textarea>
+        </div>
+        <br>
+
+        <div>
+        Web Dev  <select name="options" id="">
+            <option value="">Frontend</option>
+            <option value="">Backend</option>
+            <option value="" selected>Fullstack</option>
+        </select>
+        </div>
+        <br>
+    
+        <div>
+        <input type="submit" value="Enviar Formulário">
+        <input type="reset" value="Limpar Formulário">
+        </div>
+        <br>
+
+        <div>
+            <a href="/home/jacquesg/repos/Form/index.html">Voltar</a>
+        </div>
+
+    </form>
+    </div>
+    
+</body>
+</html>
