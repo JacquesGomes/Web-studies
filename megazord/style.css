@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(205, 246, 247);
+}
+
+.Quadradao{
+    background-color: rgb(252, 184, 110);
+    width: 500px;
+    text-align: center;
+    margin: 16px auto;
+    padding: 8px;
+    border: 5px;
+    border-color: rgb(108, 42, 9);
+    border-style: solid;
+}
+
+.Images{
+    padding: 16px 8px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    background-color: aqua;
+
+}
+
+.Links{
+    padding: 16px 8px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    background-color: aqua;
+}
+
+.Form{
+    padding: 16px 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: aqua;
+}
